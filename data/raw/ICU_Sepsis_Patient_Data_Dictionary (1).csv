@@ -1,0 +1,19 @@
+column,category,description
+patient_id,Identifier,Unique ICU patient identifier
+age,Demographic,Patient age in years
+gender,Demographic,Patient gender
+los_hours,Operational,ICU length of stay in hours
+heart_rate_bpm,Vital sign,Heart rate in beats per minute
+systolic_bp_mmhg,Vital sign,Systolic blood pressure in mmHg
+respiratory_rate_bpm,Vital sign,Respiratory rate in breaths per minute
+temperature_c,Vital sign,Body temperature in degrees Celsius
+spo2_percent,Vital sign,Peripheral oxygen saturation percentage
+wbc_10e9_l,Laboratory,White blood cell count
+lactate_mmol_l,Laboratory,Blood lactate concentration
+creatinine_mg_dl,Laboratory,Serum creatinine
+platelets_10e9_l,Laboratory,Platelet count
+gcs_score,Clinical,Glasgow Coma Scale score
+urine_output_ml_kg_hr,Clinical,Urine output rate
+antibiotics_administered,Treatment,Whether antibiotics were administered (0/1)
+vasopressors_administered,Treatment,Whether vasopressors were administered (0/1)
+mechanical_ventilation,Treatment,Whether mechanical ventilation was used (0/1)
